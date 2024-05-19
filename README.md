@@ -80,4 +80,21 @@ This project was inspired by the need to provide a simple yet comprehensive exam
 ## Example Process File Format
 
 Each process file should contain instructions in the following format:
+```bash
+assign x input
+assign y readFile path/to/file
+assign z add x y
+writeFile path/to/output/file z
+print z
+```
+
+## Future Enhancements
+
+- **Additional Scheduling Algorithms**: Implementing more scheduling algorithms like Priority Scheduling and Multilevel Queue Scheduling.
+- **Graphical User Interface (GUI)**: Adding a GUI for better visualization and interaction.
+- **Error Handling**: Improving error handling and user feedback.
+
+---
+
+Thank you for using the OS Scheduler Project! We hope it serves as a valuable learning tool and a solid foundation for further exploration into operating systems and process management.
 
